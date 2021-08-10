@@ -13,6 +13,14 @@ img {
   height: auto;
 }
 
+body {
+  font: 400 1rem 'Dm Sans', sans-serif;
+}
+
+h1 {
+  font: 700 1.875rem, 'Poppins', sans-serif;
+}
+
 :root {
 }
 
