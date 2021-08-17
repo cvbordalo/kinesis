@@ -18,24 +18,28 @@ img {
   height: auto;
 }
 
+p {
+  font-size: 1.2rem;
+}
+
 /*====  VARIABLES ============================ */
 :root {
   --header-height: 4.5rem;
 
   /* colors */
-  --hue: 159;
+  --hue: 345;
   /* HSL color mode */
-  --base-color: hsl(var(--hue) 36% 57%);
-  --base-color-second: hsl(var(--hue) 65% 88%);
+  --base-color: hsl(var(--hue) 100% 60%);
+  --base-color-second: hsl(var(--hue) 88% 72%);
   --base-color-alt: hsl(var(--hue) 57% 53%);
-  --title-color: hsl(var(--hue) 41% 10%);
+  --title-color: #000000;
   --text-color: hsl(0 0% 46%);
   --text-color-light: hsl(0 0% 98%);
   --body-color: hsl(0 0% 98%);
 
   /* fonts */
   --title-font-size: 1.875rem;
-  --subtitle-font-size: 1rem;
+  --subtitle-font-size: 1.2rem;
 
   --title-font: 'Poppins', sans-serif;
   --body-font: 'DM Sans', sans-serif;
@@ -143,7 +147,7 @@ body {
 
 /*====  LOGO ============================ */
 .logo {
-  font: 700 1.31rem var(--title-font);
+  font: 700 1.45rem var(--title-font);
   color: var(--title-color);
 }
 
@@ -400,7 +404,7 @@ nav.show div.icon-close {
 #testimonials blockquote p span {
   font: 700 2.5rem serif;
   position: absolute;
-  top: -0.375rem;
+  top: -0.675rem;
   left: -1.875rem;
   color: var(--base-color);
 }
@@ -567,7 +571,7 @@ footer .social a:hover {
   }
 
   nav .menu ul li a.title {
-    font: 400 1rem var(--body-font);
+    font: 400 1.05rem var(--body-font);
     -webkit-font-smoothing: antialiased;
   }
 
